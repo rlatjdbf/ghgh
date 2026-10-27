@@ -1,16 +1,17 @@
 {
-  "name": "full-web-unblocker",
-  "version": "1.0.0",
-  "description": "Bypass Web Proxy Server",
+  "name": "enterprise-stealth-proxy",
+  "version": "2.0.0",
+  "description": "Enterprise-grade Reverse Web Proxy Gateway",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^1.6.8",
-    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "http-proxy-middleware": "^3.0.0"
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3"
   }
 }
